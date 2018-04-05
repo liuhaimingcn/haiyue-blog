@@ -1,0 +1,2 @@
+# haiyue-blog
+hexo blog
