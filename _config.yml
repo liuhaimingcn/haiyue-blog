@@ -79,12 +79,23 @@ theme: BlueLake
 stylus:
   compress: true
 
-duoshuo_shortname: liuhaiming
+duoshuo_shortname: 
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@140.143.140.107:/home/git/hexo.git
+  branch: master
+
+#RSS订阅
+plugin:
+  - hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
 
 # jsonContent
 jsonContent:

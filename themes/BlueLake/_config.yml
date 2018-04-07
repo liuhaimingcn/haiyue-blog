@@ -23,10 +23,10 @@ menu:
 # Sidebar
 widgets:
   - recent_posts
-  - category
+  - weibo
   - tag
-  - archive
-  #- weibo
+  - category
+  #- archive
   - links
 
 # Toc
@@ -57,6 +57,8 @@ feed:
   path: atom.xml
   limit: 20
 
+rss: /atom.xml
+
 #sitemap
 sitemap:
   path: sitemap.xml
@@ -68,14 +70,14 @@ local_search: true ## Use a javascript-based local search engine, true/false.
 
 #Cmments
 comment:
-  duoshuo: liuhaiming #chaooo ## duoshuo_shortname
+  duoshuo: #chaooo ## duoshuo_shortname
   disqus: ## disqus_shortname
   livere: ## 来必力(data-uid)
   uyan: ## 友言(uid)
   cloudTie: ## 网易云跟帖(productKey)
   changyan: ## 畅言需在下方配置两个参数，此处不填。
-    appid: ## 畅言(appid)
-    appkey: ##畅言(appkey)
+    appid: cytyk06IH ## 畅言(appid)
+    appkey: prod_b7a29ebfb19e9ed60f3e43996d5090e7 ##畅言(appkey)
 
 #Share
 baidu_share: true ## 百度分享
@@ -91,7 +93,7 @@ addToAny_share: # AddToAny share. Empty list hides. List items are service name 
 
 # Analytics
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42025684-2
-baidu_analytics: a7a2c4aca1cbfe4dd193dcc93b9b2012 ## Your Baidu Analytics tracking id, e.g. 1006843030519956000
+baidu_analytics: 9f105eeb68519138d202c926947fc768 ## Your Baidu Analytics tracking id, e.g. 1006843030519956000
 
 # Miscellaneous
 show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
